@@ -1,0 +1,10 @@
+sources:
+  - name: glamira
+    database: people-behavior-glamira
+
+    tables:
+      - name: glamira_raw
+      - name: ip_to_location
+      - name: summary
+      - name: products
+      - name : currency_exchange_rates

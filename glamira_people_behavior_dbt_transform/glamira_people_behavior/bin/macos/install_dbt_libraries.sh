@@ -1,0 +1,2 @@
+dbt clean
+dbt deps
