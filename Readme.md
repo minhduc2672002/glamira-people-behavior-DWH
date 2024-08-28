@@ -18,8 +18,9 @@ Set up dbt: https://geode-chair-2e1.notion.site/dbt-Set-up-7ed0cf05970f4588b498f
 ## Objective
 
 Data is information about users' actions from the time they visit your website until they add to cart and successfully checkout.
-Data collected from 2020-04-01 → 2020-06-04 from 223 countries with a total of 41 million records.
+Data collected from 2020-04-01 → 2020-06-04 from 223 countries with about 41 million records.
 The main information of the data includes ip address, access time, action type, current url, selected option type, product_id, price, amount,...
+
 ![image](https://github.com/user-attachments/assets/0a25845a-2b93-4151-ae2b-410b5ad4db1f)
 
 ## Workflow
