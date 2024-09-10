@@ -12,13 +12,12 @@
    
 
 ## 1.Introduction
-In this project, we'll use dbt (Data Build Tool) and SQL on Google BigQuery for data transformation. Our goal is to convert raw data into a more accessible format for extracting insights. dbt, an open-source tool, will help us effectively transform data in our warehouses. We'll use SQL for data management and Google BigQuery, a fully-managed, serverless data warehouse, for super-fast SQL queries.
+In this project, I'll use dbt (Data Build Tool) and SQL on Google BigQuery for data transformation. My goal is to convert raw data into a more accessible format for extracting insights. dbt, an open-source tool, will help me effectively transform data in my warehouses. I'll use SQL for data management and Google BigQuery, a fully-managed, serverless data warehouse, for super-fast SQL queries.
 
-## 
 ## 2.Installation
 Set up dbt: https://geode-chair-2e1.notion.site/dbt-Set-up-7ed0cf05970f4588b498f0e7d5c98f5b?pvs=4
-## 3.Objective
 
+## 3.Objective
 Data is information about users' actions from the time they visit your website until they add to cart and successfully checkout.
 Data collected from 2020-04-01 → 2020-06-04 from 223 countries with about 41 million records.
 The main information of the data includes ip address, access time, action type, current url, selected option type, product_id, price, amount,...
@@ -32,6 +31,7 @@ The main information of the data includes ip address, access time, action type, 
 - Use Cloud Functions to trigger data into BigQuery whenever data arrives in GCS.
 - Use DBT to transform and model data into a data warehouse layer.
 ### Source Data
+
 ![image](https://github.com/user-attachments/assets/6bbe997b-9dc8-409e-b3d4-eab5874d4262)
 ### Destination Data
 ![image](https://github.com/user-attachments/assets/3a5e2e8c-443d-4290-bc5e-a3e939c2bb6e)
