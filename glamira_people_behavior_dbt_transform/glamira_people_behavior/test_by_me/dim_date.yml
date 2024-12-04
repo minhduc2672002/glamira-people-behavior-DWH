@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: Dim_Date
+    columns: 
+      - name: date_key
+        tests:
+          - unique
+          - not_null
+
+      - name: day_of_week 
+        tests: 
+          - not_null
+
+      - name: day_of_week_short 
+        tests: 
+          - not_null
+
+      - name: day_of_week_string
+        tests: 
+          - not_null 
+
+      - name: is_weekday_or_weekend 
+        tests: 
+          - not_null  
+
+      - name: month 
+        tests: 
+          - not_null 
+
+      - name: year 
+        tests: 
+          - not_null
+
+      - name: quarter 
+        tests: 
+          - not_null
+      
+      - name: full_date 
+        tests: 
+          - not_null

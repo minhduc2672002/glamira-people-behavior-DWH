@@ -64,6 +64,7 @@ def crawl_image(data,gcs_path,root_folder_name):
             image_path = os.path.join(gcs_path,root_folder_name,result['image_path'])
             data.loc[index,'image_path'] = image_path
     return data
+
 def main(file_path):
     data = pd.read_csv(file_path,encoding='utf-8')
     gsc_path = 'gs://glamira_bucket/'

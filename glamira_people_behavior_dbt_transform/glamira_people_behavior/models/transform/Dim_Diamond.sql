@@ -11,7 +11,7 @@ WITH dim_diamond__source AS (
   UNION DISTINCT
 
   SELECT
-    coalesce(option.value_label,'unknown') AS diamond_value
+    option.value_label AS diamond_value
   FROM {{source('glamira','summary')}},
   UNNEST(cart_products) AS cart_products,
   UNNEST(cart_products.option) AS  option

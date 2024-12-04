@@ -1,0 +1,15 @@
+version 2:
+
+models:
+  - name: Dim_Product
+    columns: 
+      - name: product_key
+        tests: 
+          - unique
+          - not_null
+
+      - name: product_name
+        tests: 
+          - not_null
+
+    
