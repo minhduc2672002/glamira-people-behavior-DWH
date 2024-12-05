@@ -1,0 +1,41 @@
+version 2:
+
+models:
+  - name: Fact_Sale
+    columns: 
+    
+      - name: date_key
+        tests: 
+          - not_null
+          - relationships:
+              to: ref('Dim_Date')
+              field: date_key
+
+      - name: location_key
+        tests: 
+          - not_null
+          - relationships:
+              to: ref('Dim_Location')
+              field: location_key
+      
+      - name: product_key
+        tests: 
+          - not_null
+          - relationships:
+              to: ref('Dim_Product')
+              field: product_key
+
+      - name: alloy_key
+        tests: 
+          - not_null
+          - relationships:
+              to: ref('Dim_Alloy')
+              field: alloy_key
+
+      - name: diamond_key
+        tests: 
+          - not_null
+          - relationships:
+              to: ref('Dim_Diamond')
+              field: diamond_key
+      

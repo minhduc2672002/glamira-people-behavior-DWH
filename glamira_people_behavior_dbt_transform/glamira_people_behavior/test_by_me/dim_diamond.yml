@@ -1,0 +1,13 @@
+version 2:
+
+models:
+  - name: Dim_Diamond
+    columns: 
+      - name: diamond_key
+        tests: 
+          - unique
+          - not_null
+
+      - name: diamond_value_label
+        tests: 
+          - not_null

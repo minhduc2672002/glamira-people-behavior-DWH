@@ -1,0 +1,29 @@
+version 2:
+
+models:
+  - name: Dim_Location
+    columns: 
+      - name: location_key
+        tests: 
+          - unique
+          - not_null
+
+      - name: country_code
+        tests: 
+          - not_null
+      
+      - name: country_name
+        tests: 
+          - not_null
+
+      - name: region_name
+        tests: 
+          - not_null
+
+      - name: city_name
+        tests: 
+          - not_null
+      
+      - name: postal_code
+        tests: 
+          - not_null

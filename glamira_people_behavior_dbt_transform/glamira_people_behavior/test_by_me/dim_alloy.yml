@@ -1,0 +1,13 @@
+version 2:
+
+models:
+  - name: Dim_Alloy
+    columns: 
+      - name: alloy_key
+        tests: 
+          - unique
+          - not_null
+
+      - name: alloy_name
+        tests: 
+          - not_null
