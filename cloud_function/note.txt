@@ -2,6 +2,3 @@ sử lí giá  trị null
 
 đưa option "" thành {}
 
-
-lệnh ssh to server 
-
